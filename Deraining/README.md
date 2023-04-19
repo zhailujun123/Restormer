@@ -9,7 +9,8 @@ python download_data.py --data train-test
 2. To train Restormer with default settings, run
 ```
 cd Restormer
-./train.sh Deraining/Options/Deraining_Restormer.yml
+#./train.sh Deraining/Options/Deraining_Restormer.yml
+./train.sh /home/u.lz104503/Restormer/Deraining/Options/Deraining_Restormer.yml
 ```
 
 **Note:** The above training script uses 8 GPUs by default. To use any other number of GPUs, modify [Restormer/train.sh](../train.sh) and [Deraining/Options/Deraining_Restormer.yml](Options/Deraining_Restormer.yml)
